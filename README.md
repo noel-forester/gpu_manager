@@ -7,6 +7,7 @@ Windows11の設定＞システム＞ディスプレイ＞グラフィック下�
 ※該当レジストリ("HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences")を直接書き換えるので心配ならバックアップして下さい
 
 # 使い方
+リリースから落として実行すれば動く（ハズ）
 Windowsの設定から一度でも変更していればレジストリに存在するため、一覧に表示されます
 ※一覧に無い場合はAddから直接実行ファイルを追加もできます
 
@@ -16,7 +17,9 @@ Windowsの設定から一度でも変更していればレジストリに存在�
 UI上のExitかタスクトレイ右クリック→Exitで終了します
 
 # 開発環境
-Python 3.x
+Windows 11 Pro 23H2
+Build:22631.4249
+Python 3.10.6
 PyQt5
 Pyinstaller
 なお、ほとんどChatGPTが書いてます
